@@ -83,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CypherDecoderTest.testCypherDecoder_String">
+  <component name="RunManager" selected="Gradle.CypherDecoderTest.testCypherDecoder_TwoLetter_String">
     <configuration name="CypherDecoderTest.testCypherDecoder_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,12 +104,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CypherEncoderTest.testCypherEncoder_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CypherDecoderTest.testCypherDecoder_TwoLetter_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_String&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.CypherDecoderTest.testCypherDecoder_TwoLetter_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -124,12 +124,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CypherEncoderTest.testCypherEncoder_TwoLetter_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CypherEncoderTest.testCypherEncoder_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_TwoLetter_String&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CypherDecoderTest.testCypherDecoder_TwoLetter_String" />
         <item itemvalue="Gradle.CypherDecoderTest.testCypherDecoder_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_lettersWithSpaceBetween_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_hreeLetter_String" />
-        <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_TwoLetter_String" />
       </list>
     </recent_temporary>
   </component>

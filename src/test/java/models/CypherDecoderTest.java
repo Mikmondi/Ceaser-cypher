@@ -10,4 +10,10 @@ public class CypherDecoderTest {
         assertEquals("a", testCypherDecoder.decryptText());
 
     }
+
+    @Test
+    public void testCypherDecoder_TwoLetter_String() throws Exception {
+        CypherDecoder testCypherDecoder = new CypherDecoder("gh", 1);
+        assertEquals("fg", testCypherDecoder.decryptText());
+    }
 }
