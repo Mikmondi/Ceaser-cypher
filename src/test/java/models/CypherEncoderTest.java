@@ -25,8 +25,8 @@ public class CypherEncoderTest {
         assertEquals("y", testCypherEncoder.encryptText("x",1));
     }
     @Test
-    public  void testCypherEncoder_twoLetter_String(){
-        CypherEncoder testCypherEncoder = new CypherEncoder("ABC",1);
-        assertEquals("BCD", CypherEncoder.("ABC",1));
+    public void testCypherEncoder_TwoLetter_String() throws Exception {
+        CypherEncoder testCypherEncoder=new CypherEncoder("cc", 1);
+        assertEquals("dd", testCypherEncoder.encryptText("cc",1));
     }
 }

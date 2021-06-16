@@ -1,4 +1,5 @@
 package models;
+import com.sun.org.apache.bcel.internal.generic.RETURN;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +31,7 @@ public class CypherEncoder {
     public int setRotateKey(int userKey) {
         return this.rotateKey = userKey;
     }
-    
+
     public String encryptText(String userInput, int rotateKey){
         for (int i = 0; i < userInput.length(); i++) {
             if (Character.isUpperCase(userInput.charAt(i))) {
