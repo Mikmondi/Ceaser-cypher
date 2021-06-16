@@ -29,4 +29,9 @@ public class CypherEncoderTest {
         CypherEncoder testCypherEncoder=new CypherEncoder("cc", 1);
         assertEquals("dd", testCypherEncoder.encryptText("cc",1));
     }
+    @Test
+    public void testCypherEncoder_hreeLetter_String() throws Exception {
+        CypherEncoder testCypherEncoder=new CypherEncoder("TOM", 1);
+        assertEquals("UPN", testCypherEncoder.encryptText("TOM",1));
+    }
 }
