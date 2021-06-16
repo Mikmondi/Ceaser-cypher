@@ -11,6 +11,25 @@ public class CypherDecoder {
     private String decodeText;
     private int decodeKey;
     private List<String> decodedOutput = new ArrayList<String>();
+// Getter method
+    public String getUserText() {
+        this.decodeText = EncoderDetails.getInputString();
+        return this.decodeText;
+    }
+
+    public int getUserKey() {
+        this.decodeKey = EncoderDetails.getRotateKey();
+        return this.decodeKey;
+    }
+//Setter method
+    public String setUserText(String userInput) {
+        return this.decodeText = userInput;
+    }
+
+    public int setUserKey(int userKey) {
+        return this.decodeKey = userKey;
+    }
+
 
     public CypherDecoder(String decodeText, int decodeKey) {
         this.decodeText = decodeText;
