@@ -16,6 +16,7 @@ public class App {
             System.out.println("Welcome to My Caeser Cypher program. Choose one of the following options:");
             System.out.println("1. Encrypt");
             System.out.println("3. Exit");
+            programRunning = false;
         }
         try {
             String choice = bufferedReader.readLine();
@@ -31,7 +32,6 @@ public class App {
                 System.out.println("Encrypted Text: " + encodingResult);
             }else if (choice.equals("3")) {
                     System.out.println("Goodbye!");
-                    programRunning = false;
                 } else {
                     System.out.println("That input cannot be recognized.");
                 }
