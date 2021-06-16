@@ -2,12 +2,16 @@ package models;
 
 public class CypherEncoder {
     private String userInput;
-    private int shiftKey;
-    public  String encrypt(String userInput, int shiftKey){
-
+    private int rotateKey;
+    String encryptedInput = new String();
+    public String encryptText(String userInput, int rotateKey){
+        for (int index = 0; index < userInput.length(); index++) {
+            char c = userInput.charAt(index);
+            int charPosition = alphabets.indexOf(c);
+            if (charPosition == -1){
+                encryptedText.append(c);
+            }
+return encryptedInput;
     }
 
-    public static void main(String[] args) {
-
-    }
 }
