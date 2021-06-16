@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/CypherEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/CypherEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/CypherEncoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/CypherEncoderTest.java" afterDir="false" />
     </list>
@@ -83,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CypherEncoderTest.testCypherEncoder_hreeLetter_String">
+  <component name="RunManager" selected="Gradle.CypherEncoderTest.testCypherEncoder_lettersWithSpaceBetween_String">
     <configuration name="CypherEncoderTest.testCypherEncoder_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -124,12 +126,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CypherEncoderTest.testCypherEncoder_getUserRotateKey_int" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CypherEncoderTest.testCypherEncoder_hreeLetter_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_getUserRotateKey_int&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_hreeLetter_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -144,12 +146,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CypherEncoderTest.testCypherEncoder_hreeLetter_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CypherEncoderTest.testCypherEncoder_lettersWithSpaceBetween_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_hreeLetter_String&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_lettersWithSpaceBetween_String&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -186,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_lettersWithSpaceBetween_String" />
+        <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_hreeLetter_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_TwoLetter_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_twoLetter_String" />
-        <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_String" />
-        <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_getUserRotateKey_int" />
       </list>
     </recent_temporary>
   </component>

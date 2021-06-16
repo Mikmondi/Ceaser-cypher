@@ -16,22 +16,27 @@ public class CypherEncoderTest {
     @Test
     public void testCypherEncoder_getUserRotateKey_int() {
         CypherEncoder testCypherEncoder = new CypherEncoder("",1);
-        assertEquals("", testCypherEncoder.encryptText("",1));
+        assertEquals("", testCypherEncoder.encryptText());
     }
 
     @Test
     public void testCypherEncoder_String() throws Exception {
         CypherEncoder testCypherEncoder=new CypherEncoder("x", 1);
-        assertEquals("y", testCypherEncoder.encryptText("x",1));
+        assertEquals("h", testCypherEncoder.encryptText());
     }
     @Test
     public void testCypherEncoder_TwoLetter_String() throws Exception {
         CypherEncoder testCypherEncoder=new CypherEncoder("cc", 1);
-        assertEquals("dd", testCypherEncoder.encryptText("cc",1));
+        assertEquals("dd", testCypherEncoder.encryptText());
     }
     @Test
-    public void testCypherEncoder_hreeLetter_String() throws Exception {
+    public void testCypherEncoder_threeLetter_String() throws Exception {
         CypherEncoder testCypherEncoder=new CypherEncoder("TOM", 1);
-        assertEquals("UPN", testCypherEncoder.encryptText("TOM",1));
+        assertEquals("UPN", testCypherEncoder.encryptText());
+    }
+    @Test
+    public void testCypherEncoder_lettersWithSpaceBetween_String() throws Exception {
+        CypherEncoder testCypherEncoder=new CypherEncoder("jump up", 1);
+        assertEquals("kvnq vq", testCypherEncoder.encryptText());
     }
 }
