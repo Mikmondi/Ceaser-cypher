@@ -9,15 +9,14 @@ public class CypherEncoderTest {
     @Test
     public void testCypherEncoder() {
         CypherEncoder testCypherEncoder = new CypherEncoder();
-        String testOutput = "";
-        assertEquals(testOutput, testCypherEncoder.encryptedInput);
+        assertEquals("", testCypherEncoder.getClass());
 
     }
 
     @Test
-    public void testCypherEncoder_() {
+    public void testCypherEncoder_getUserRotateKey_int() {
         CypherEncoder testCypherEncoder = new CypherEncoder();
         String testOutput = "";
-        assertEquals();
+        assertEquals(0,testCypherEncoder.getClass());
     }
 }
