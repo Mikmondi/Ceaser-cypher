@@ -83,7 +83,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CypherDecoderTest.testCypherDecoder_TwoLetter_String">
+  <component name="RunManager" selected="Gradle.CypherDecoderTest.testCypherDecoder_LettersWithSpacesInBetween_String">
+    <configuration name="CypherDecoderTest.testCypherDecoder_LettersWithSpacesInBetween_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;models.CypherDecoderTest.testCypherDecoder_LettersWithSpacesInBetween_String&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="CypherDecoderTest.testCypherDecoder_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -144,26 +164,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CypherEncoderTest.testCypherEncoder_hreeLetter_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;models.CypherEncoderTest.testCypherEncoder_hreeLetter_String&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="CypherEncoderTest.testCypherEncoder_lettersWithSpaceBetween_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CypherDecoderTest.testCypherDecoder_LettersWithSpacesInBetween_String" />
         <item itemvalue="Gradle.CypherDecoderTest.testCypherDecoder_TwoLetter_String" />
         <item itemvalue="Gradle.CypherDecoderTest.testCypherDecoder_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_lettersWithSpaceBetween_String" />
         <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_String" />
-        <item itemvalue="Gradle.CypherEncoderTest.testCypherEncoder_hreeLetter_String" />
       </list>
     </recent_temporary>
   </component>

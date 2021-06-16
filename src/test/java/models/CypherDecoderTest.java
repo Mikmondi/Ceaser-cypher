@@ -16,4 +16,12 @@ public class CypherDecoderTest {
         CypherDecoder testCypherDecoder = new CypherDecoder("gh", 1);
         assertEquals("fg", testCypherDecoder.decryptText());
     }
+    @Test
+    public void testCypherDecoder_LettersWithSpacesInBetween_String() throws Exception {
+        CypherDecoder testCypherDecoder = new CypherDecoder("gbu dbu", 1);
+        assertEquals("fat cat", testCypherDecoder.decryptText());
+    }
+
 }
+
+
