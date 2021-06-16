@@ -8,6 +8,29 @@ public class CypherEncoder {
     private int rotateKey;
     private List<String> encryptedInput = new ArrayList<String>();
 
+    public CypherEncoder(String userInput, int rotateKey) {
+        this.userInput = userInput;
+        this.rotateKey = rotateKey;
+    }
+    //This are my getter functions,will use to connect to the other classes
+
+    public String getInputString() {
+        return this.userInput;
+    }
+    public int getRotateKey() {
+        return this.rotateKey;
+    }
+
+    // Will use the below setters instead of the constructor to set properties from App class
+
+    public String setUserText(String userInput) {
+        return this.userInput = userInput;
+    }
+
+    public int setRotateKey(int userKey) {
+        return this.rotateKey = userKey;
+    }
+    
     public String encryptText(String userInput, int rotateKey){
         for (int i = 0; i < userInput.length(); i++) {
             if (Character.isUpperCase(userInput.charAt(i))) {
@@ -27,5 +50,6 @@ public class CypherEncoder {
         }
         return String.join("", encryptedInput);
     }
+
 
 }
